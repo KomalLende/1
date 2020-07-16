@@ -1,0 +1,62 @@
+//Assignment day 3
+
+//Question 2 : 
+
+//Write the difference between var, let and const with code examples
+
+
+/*Difference between var and let in JavaScript
+var and let are both used for variable declaration in javascript but the difference between them is that var is function scoped and let is block scoped.
+It can be said that a variable declared with var is defined throughout the program as compared to let.
+An example will clarify the difference even better
+
+
+Example of var:
+
+Input:
+console.log(x);
+var x=5;
+console.log(x);
+
+Output:
+undefined
+5
+
+Example of let:
+
+Input:
+console.log(x);
+let x=5;
+console.log(x);
+
+Output:
+Error
+*/
+
+//Program :
+
+<html> 
+  
+<body> 
+    <script> 
+        document.write("<br/>"); 
+        document.write("<br/>"); 
+        // calling x after definition 
+        var x = 5; 
+        document.write(x, "\n"); 
+  
+        // calling y after definition  
+        let y = 10; 
+        document.write(y, "\n"); 
+  
+        // calling var z before definition will return undefined 
+        document.write(z, "\n"); 
+        var z = 2; 
+  
+        // calling let a before definition will give error 
+        document.write(a); 
+        let a = 3; 
+    </script> 
+</body> 
+  
+</html>                       
