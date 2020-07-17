@@ -1,0 +1,30 @@
+//Assignment Day 3
+
+//Question 1
+
+//Take a number from user and write a function which checks whether the number is even or odd. Assign the result to a variable and log it in the console. Example input: 23 Outupt: The number entered is 23 and the number is odd
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <h2>Click here to check whether the entered number is Even or Odd</h2>
+    </head>
+<body>
+<script>
+var num=prompt("Enter the number");
+function check()
+{
+    if(num%2==0)
+    {
+        alert('The number entered is: '+num+ '  And Number is Even ');
+    }
+    else
+    {
+        alert('The number entered is: '+num+ '  And the Number is Odd');
+    }
+}
+
+</script>
+<button onclick='check(num)'>Check</button>
+</body>
+</html>

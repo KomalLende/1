@@ -1,0 +1,33 @@
+//Day 4 Assignment
+
+//Question 3.2 : 
+
+//Write a program to take marks as input from the user and grade him accordingly. Use Conditional statements. Also the same code using switch or ternary
+
+<html>
+    <h1>Program to take marks from user and grade him accordingly.</h1>
+    <body>
+    <script>
+        var marks=prompt('Enter the marks of user');
+        var ch=prompt("Enter your choice");
+        switch(ch)
+        {
+            case 'A': if(marks>50 && marks<=100)
+                    {
+                        document.write('Marks are: ' +marks+   ' And Grade is A');
+                    }
+                    break;
+    
+            case 'B': if(marks<=50 && marks>=0)
+                      {
+                        document.write('Marks are: ' +marks+   ' And Grade is B');
+                      }
+                      break;
+    
+            default:  alert("Invalid choice");
+                      document.write('Marks are:' +marks);
+           
+        }
+    </script>
+    </body>
+    </html>
