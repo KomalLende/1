@@ -1,0 +1,29 @@
+//Assignment Day 5
+
+//Question 8 :
+
+<!-- Replace Function Expressions with arrow functions in the code below: -->
+
+/*function ask(quetion ,yes,no)
+{
+    if(confirm(quetion)) yes()
+    else no();
+}
+ask(
+    "Do you agree?",
+    function(){
+        alert("You agreed.");
+    },
+    function(){alert("you canceled the execution.");
+    }
+);*/
+
+let ask=(yes,no) =>{
+    if(confirm('do you agreed'))
+    alert("you agreed");
+    else
+    alert("you cancelled the execution");
+}
+
+
+ask();
